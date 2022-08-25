@@ -20,7 +20,7 @@ class UserRatings {
   displayThanks(rate) {
     const html = `
   <div class="img">
-          <img src="/images/illustration-thank-you.svg" alt="" />
+          <img src="/images/illustration-thank-you.svg" alt="Thanks image" />
         </div>
         <div class="rate">
           <p class="rate-text">You Selected ${rate} out of 5</p>
