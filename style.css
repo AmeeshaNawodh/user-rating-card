@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.wrapper {
+  height: 24rem;
+  width: 25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(213, 19%, 18%);
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.star {
+  padding: 1rem 0;
+}
+.str {
+  padding: 0.7rem;
+  background-color: hsla(217, 12%, 63%, 0.303);
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.ratings {
+  /* font-size: 1.4rem; */
+  background-color: hsla(217, 12%, 63%, 0.303);
+  color: rgba(255, 255, 255, 0.551);
+  padding: 1.3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ratings:hover {
+  background-color: hsl(216, 12%, 54%);
+}
+.ratings:active {
+  background-color: hsl(25, 97%, 53%);
+}
+.ratings p {
+  font-size: 1rem;
+  position: absolute;
+}
+
+.btn {
+  width: 100%;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.img {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+}
+
+.rate-text {
+  background-color: hsla(217, 12%, 63%, 0.303);
+  padding: 0.4rem;
+  width: auto;
+  border-radius: 2rem;
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  text-align: center;
+}
+.thank {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.thank-msg {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.511);
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    height: 24rem;
+    width: 20rem;
+  }
+  .star {
+    padding: 0.5rem 0;
+  }
+}

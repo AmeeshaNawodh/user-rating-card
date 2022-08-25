@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "build": "parcel build  index.html --dist-dir ./dist"
+  },
+  "author": "Ameesha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
