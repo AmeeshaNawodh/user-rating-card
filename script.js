@@ -52,3 +52,5 @@ class UserRatings {
 
 const user = new UserRatings();
 user.render();
+
+console.log("all are welcome");
